@@ -960,7 +960,7 @@ class Torrentio :
         private val PREF_CODEC_DEFAULT = setOf<String>() // Empty by default to show all
 
         private val DATE_FORMATTER by lazy {
-            SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ", Locale.ENGLISH)
+            SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX", Locale.ENGLISH)
         }
     }
 }
